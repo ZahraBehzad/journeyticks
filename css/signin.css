@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gradient-custom-2 {
+/* fallback for old browsers */
+background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+#signinbutton{
+    color: #EEF1FF;
+    background-color: #007BFF;
+	border-color: #007BFF;
+}
+#createnewbutton{
+	color: #00D0BA;
+	border-color: #00D0BA;
+}
+#createnewbutton:hover{
+	background-color: #00D0BA;
+	color:white;
+}
+
+#logindescription{
+	background-color:
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(180deg,rgba(200,243,255,1.00) 0%,rgba(60,215,244,1.00) 16.38%,rgba(0,208,186,1.00) 31.30%,rgba(93,210,218,1.00) 47.88%,rgba(0,208,186,1.00) 62.80%,rgba(70,120,255,1.00) 82.70%,rgba(0,17,255,1.00) 100%), url(url);
+    background-image: -o-linear-gradient(180deg,rgba(200,243,255,1.00) 0%,rgba(60,215,244,1.00) 16.38%,rgba(0,208,186,1.00) 31.30%,rgba(93,210,218,1.00) 47.88%,rgba(0,208,186,1.00) 62.80%,rgba(70,120,255,1.00) 82.70%,rgba(0,17,255,1.00) 100%), url(url);
+    background-image: -webkit-linear-gradient(180deg,rgba(200,243,255,1.00) 0%,rgba(60,215,244,1.00) 16.38%,rgba(0,208,186,1.00) 31.30%,rgba(93,210,218,1.00) 47.88%,rgba(0,208,186,1.00) 62.80%,rgba(70,120,255,1.00) 82.70%,rgba(0,17,255,1.00) 100%), url(url);
+    background-image: linear-gradient(270deg,rgba(200,243,255,1.00) 0.00%,rgba(60,215,244,1.00) 16.38%,rgba(0,208,186,1.00) 31.30%,rgba(93,210,218,1.00) 47.88%,rgba(0,208,186,1.00) 62.80%,rgba(70,120,255,1.00) 82.70%,rgba(0,17,255,1.00) 100%), url(url);
+}
+
+
+#loginbutton{
+	background-color:
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(180deg,rgba(200,243,255,1.00) 0%,rgba(60,215,244,1.00) 16.38%,rgba(0,208,186,1.00) 31.30%,rgba(93,210,218,1.00) 47.88%,rgba(0,208,186,1.00) 62.80%,rgba(70,120,255,1.00) 82.70%,rgba(0,17,255,1.00) 100%), url(url);
+    background-image: -o-linear-gradient(180deg,rgba(200,243,255,1.00) 0%,rgba(60,215,244,1.00) 16.38%,rgba(0,208,186,1.00) 31.30%,rgba(93,210,218,1.00) 47.88%,rgba(0,208,186,1.00) 62.80%,rgba(70,120,255,1.00) 82.70%,rgba(0,17,255,1.00) 100%), url(url);
+    background-image: -webkit-linear-gradient(180deg,rgba(200,243,255,1.00) 0%,rgba(60,215,244,1.00) 16.38%,rgba(0,208,186,1.00) 31.30%,rgba(93,210,218,1.00) 47.88%,rgba(0,208,186,1.00) 62.80%,rgba(70,120,255,1.00) 82.70%,rgba(0,17,255,1.00) 100%), url(url);
+    background-image: linear-gradient(270deg,rgba(200,243,255,1.00) 0.00%,rgba(60,215,244,1.00) 16.38%,rgba(0,208,186,1.00) 31.30%,rgba(93,210,218,1.00) 47.88%,rgba(0,208,186,1.00) 62.80%,rgba(70,120,255,1.00) 82.70%,rgba(0,17,255,1.00) 100%), url(url);
+}
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+}
+}

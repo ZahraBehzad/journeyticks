@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/indexStyle.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/contact.css" rel="stylesheet">
+  </head>
+  <body style="color: black;margin: 0;background-color: #EEF1FF;padding-top: 70px;">
+  	<!-- body code goes here -->
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> 
+		<!--<a class="navbar-brand" href="#">Travel&nbsp;</a> -->
+	  <h1 id="fh5co-logo"><a href="index.html"><i class="icon-airplane"></i>JourneyTicks</a></h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav mr-auto">
+		  <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>			
+          <li class="nav-item"> <a class="nav-link" href="destinations.html">Destinations</a> </li>
+          <li class="nav-item active"> <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a> </li>
+			<li class="nav-item"> <a class="nav-link" href="AboutUs.html">About Us</a> </li>
+			<a href="signin.html"><button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="signinbutton">Sign in</button></a>
+        </ul>
+      </div>
+  </nav>
+ <br/>
+  <div class="container" style="background-color: #7ca3ac; height:30%;"> 
+    <h3 class="text-center text-capitalize"><strong>Contact us and inform us if there is any problem.</strong></h3>
+	  <h3 class="text-center text-capitalize"><strong>We will be glad to solve them!</strong></h3>
+  </div>
+	
+  <div class="row">
+    <div class="col-lg-6">
+	  <!--  <div class="container-fluid" >-->
+    <form name="contact-form" style="padding: 40px;">
+      <div style="font-size: 20px; margin-bottom: 10px;">
+        <label style="display: block;font-size: 20px;margin-bottom: 10px;">Full Name</label>
+        <input name="name" style="padding: 10px; border-radius: 5px; width: 280px; border: 1px solid rgb(0, 114, 66);
+        font-size: 18px; outline: none; color: #333; border-color:#007BFF;"
+          placeholder="First and Last Name" />
+        <div style="color: red; font-size: 14px; margin-top: 6px; opacity: 0;">Name is required</div>
+      </div>
+
+      <div style="font-size: 20px; margin-bottom: 10px;">
+        <label style="display: block;font-size: 20px;margin-bottom: 10px;">Email</label>
+        <input style="padding: 10px; border-radius: 5px; width: 280px; border: 1px solid rgb(0, 114, 66);
+        font-size: 18px; outline: none; color: #333; border-color:#007BFF;"
+          name="email"
+          placeholder="your_email@example.com"
+        />
+        <div style="color: red; font-size: 14px; margin-top: 6px; opacity: 0;">Email is invalid</div>
+      </div>
+
+      <div style="font-size: 20px; margin-bottom: 10px;">
+        <label style="display: block;font-size: 20px;margin-bottom: 10px;">Phone</label>
+        <input name="phone" style="padding: 10px; border-radius: 5px; width: 280px; border: 1px solid rgb(0, 114, 66);
+        font-size: 18px; outline: none; color: #333; border-color:#007BFF"/>
+        <div style="color: red; font-size: 14px; margin-top: 6px; opacity: 0;">Phone is invalid</div>
+      </div>
+
+      <div style="font-size: 20px; margin-bottom: 10px;">
+        <label style="display: block;font-size: 20px;margin-bottom: 10px;">Message</label>
+        <textarea style="width: 350px; border-radius: 5px; outline: none; padding: 10px; height: 150px;
+        font-size: 18px; border-color:#007BFF;" name="message"></textarea>
+        <div style="color: red; font-size: 14px; margin-top: 6px; opacity: 0;">Message is required</div>
+      </div>
+
+<!--      <hr styl="margin-bottom: 20px; margin-top: 20px; height: 1px; border: none; background-color: rgb(0, 114, 66);" />-->
+      <button id="submitBtn" style="padding: 20px; border: 1px solid rgb(0, 114, 66); border-radius: 10px; background: none;
+     cursor: pointer; transition: all 0.5s; color: rgb(0, 114, 66);border-color:#007BFF; color: #007BFF;" type="submit">SUBMIT FORM</button>
+    </form>
+<!--  </div>-->
+	  </div>
+    <div class="col-lg-6"><br><img src="images/contact.jpg" width="650" height="647" class="img-fluid" style="margin-top: 50px;"></div>
+  </div>
+  	  
+<div class="container"><hr style="border:0; height:2px; background-image: linear-gradient(to right
+  ,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));"></div>
+
+
+	<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Journey ticks
+          </h6>
+          <p>
+explore the world with ease. Find and purchase tickets for flights, trains, buses and more for your next adventure.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            destinations
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Paris</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Berlin</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Dubai</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Maldive</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+		  <p>
+            <a href="index.html" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="destinations.html" class="text-reset">Destinations</a>
+          </p>
+          <p>
+            <a href="signin.html" class="text-reset">Sign in</a>
+          </p>
+          <p>
+            <a href="AboutUs.html" class="text-reset">About us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            jorneyticks@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+</footer>
+<!-- Footer -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+  <script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/contact.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
