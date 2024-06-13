@@ -1,13 +1,5 @@
 let counters = [0, 0, 0];
-// let targetValues = [3109, 2000, 500]; // Target values for each counter
-
 let targetValues = [];
-// let counterElements = document.querySelectorAll('.counter');
-// counterElements.forEach((element) => {
-//     targetValues.push(parseInt(element.textContent));
-// });
-// console.log(targetValues);
-
 function incrementCounter(index, counterElement) {
   if (counters[index] < targetValues[index]) {
     counters[index] += 3;
@@ -22,7 +14,6 @@ function checkScroll() {
     counterElements.forEach((element) => {
         targetValues.push(parseInt(element.textContent));
     });
-    console.log(targetValues);
   counterSections.forEach((section, index) => {
     let rect = section.getBoundingClientRect();
     let counterElement = section.querySelector('.counter');
